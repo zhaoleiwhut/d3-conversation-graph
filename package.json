@@ -1,0 +1,30 @@
+{
+  "name": "d3-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "serve": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.3",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "imports-loader": "^0.7.1",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.3.0",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.9.1",
+    "font-awesome": "^4.7.0",
+    "innersvg-polyfill": "0.0.2",
+    "jquery": "^3.2.1"
+  },
+  "description": ""
+}
