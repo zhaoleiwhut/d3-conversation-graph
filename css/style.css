@@ -2,10 +2,13 @@ body {
   font: 10px sans-serif;
 }
 
-.group-tick line {
+.tick line {
   stroke: #000;
 }
-
+.middle > rect {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
 .ribbons {
   fill-opacity: 0.67;
 }
