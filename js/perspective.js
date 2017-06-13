@@ -19,7 +19,7 @@ const renderTick = (g, data, reverse = false) => {
         .attr('class', 'tick')
         .attr('transform', (d, i) => {
             if (reverse) {
-                return `rotate(${(i / length * 180 - 90)}) translate(${-outerRadius},0)`;
+                return `rotate(${(-i / length * 180 + 90)}) translate(${-outerRadius},0)`;
             } else {
                 return `rotate(${(i / length * 180 - 90)}) translate(${outerRadius},0)`;
             }
