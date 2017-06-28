@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "serve": "webpack-dev-server --inline",
+    "serve": "webpack-dev-server --inline --host 0.0.0.0 --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -22,6 +22,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "d3": "^4.9.1",
+    "echarts": "^3.6.2",
     "font-awesome": "^4.7.0",
     "innersvg-polyfill": "0.0.2",
     "jquery": "^3.2.1"

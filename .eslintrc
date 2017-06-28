@@ -239,5 +239,5 @@
         "unicode-bom": [2, "never"],
         "wrap-regex": 0
     },
-    "globals": { "moment": true, "$": false, "d3": true, "angular": true, "THREE": true }
+    "globals": { "moment": true, "$": false, "d3": true, "angular": true, "THREE": true, echarts: true }
 }

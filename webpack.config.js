@@ -32,6 +32,7 @@ module.exports = {
             jquery: 'jquery',
             // 'window.jQuery': 'jquery',
             d3: 'd3',
+            echarts: 'echarts',
         }),
     ],
     resolve: {
@@ -39,6 +40,7 @@ module.exports = {
         alias: {
             jquery: 'jquery/dist/jquery.min',
             d3: 'd3/build/d3',
+            echarts: 'echarts/dist/echarts.min',
         }
     },
     // 生成map文件
@@ -48,6 +50,7 @@ module.exports = {
         // proxy: {
         //     '/api': 'http://localhost:3000'
         // },
+        disableHostCheck: true,
         contentBase: path.join(__dirname, ''), // boolean | string | array, static file location
         publicPath: '/dist',
         compress: true, // enable gzip compression
